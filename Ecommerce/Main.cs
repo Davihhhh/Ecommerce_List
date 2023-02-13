@@ -18,14 +18,19 @@ namespace Ecommerce
 
         }
         Prodotto prova1 = new Elettronico("nome", "modello", "descrzione", "produttore", 20.0);
-        Carrello cart = new Carrello(200);
+        Carrello cart = new Carrello();
 
         private void Main_Load(object sender, EventArgs e)
         {
             DateTime today = DateTime.Today;
             string str = "20, 10, fds2000";
-            DateTime compare = DateTime.Parse(str);
-;            textBox.Text = compare.ToString();
+            try 
+            { 
+                DateTime compare = DateTime.Parse(str);
+                textBox.Text = compare.ToString();
+            }
+            catch(Exception) { MessageBox.Show("data invalida"); }
+;            
             //textBox.Text = prova1.getPrezzoScontato().ToString();
         }
 
@@ -36,7 +41,7 @@ namespace Ecommerce
 
         private void buttonSvuota_Click(object sender, EventArgs e)
         {
-            if (cart.Contatore <= 0)
+            if (cart.Lista.Count <= 0)
                 MessageBox.Show("Carrello già vuoto");
             else
                 cart.Svuota();                      
@@ -44,7 +49,7 @@ namespace Ecommerce
 
         private void buttonElimina_Click(object sender, EventArgs e)
         {
-            if (cart.Contatore <= 0)
+            if (cart.Lista.Count <= 0)
                 MessageBox.Show("Carrello già vuoto");
             else
                 try
@@ -62,7 +67,7 @@ namespace Ecommerce
             string produttore = textBoxProduttore.Text;
             string descrizione = textBoxDescrizione.Text;
             double prezzo = 0;
-            Prodotto p;           
+            //Prodotto p;           
             if (string.IsNullOrEmpty(nome) || string.IsNullOrEmpty(produttore) || string.IsNullOrEmpty(descrizione))
             {
                 MessageBox.Show("Inserisci tutti i valori richiesti");

@@ -1,0 +1,11 @@
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.csproj.AssemblyReference.cache
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.csproj.SuggestedBindingRedirects.cache
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.Main.resources
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.Properties.Resources.resources
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.csproj.GenerateResource.cache
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.csproj.CoreCompileInputs.cache
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\bin\Debug\Ecommerce.exe.config
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\bin\Debug\Ecommerce.exe
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\bin\Debug\Ecommerce.pdb
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.exe
+C:\Users\lin.19211\source\repos\Ecommerce_list\Ecommerce\obj\Debug\Ecommerce.pdb
